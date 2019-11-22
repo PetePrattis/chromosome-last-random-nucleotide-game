@@ -17,6 +17,7 @@ and is one of the final projects for the class_
 >>Equal length on both chromosomes.
 > 2. Case 2
 >>At least one chromosome shall have a length of 0. <br>
+>
 >Therefore, every time we play, we try to find ourselves in the above situations in order to defeat our opponent. 
 
 > #### About this project
