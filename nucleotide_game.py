@@ -17,16 +17,16 @@ print chromosome1, chromosome2
 player = 0
 
 while player!=-1:
-        print ("Ta xromosomata  einai \n 1. chromosome1 = ", chromosome1, "\n 2. chromosome2= ", chromosome2)
+        print ("The chromosomes are \n 1. chromosome1 = ", chromosome1, "\n 2. chromosome2= ", chromosome2)
         if player==0 and not(chromosome1 ==0 and chromosome2 == 0):
-                print ("Paizei o 1os paixtis \n")
+                print ("Player 1's round  \n")
                 if chromosome1 != 0 and chromosome2 != 0:
-                        print ("thes na diagrapseis apo tin 1i, tin 2i i kai apo tis 2 allilouxies? apanta 1, 2 i 3")
+                        print ("Do you want to delete from 1st, 2nd or both sequences? Answer with 1, 2 or 3")
                         choice = input()
                         while choice != 1 and choice != 2 and choice != 3:
-                                        print ("Lathos eisodos.Dialekse metaksu tou 1, 2 i 3")
+                                        print ("Wrong input! Answer with 1, 2 or 3")
                                         choice = int(input())
-                        print ("dialekse arithmo gia na ton diagrapseis apo tin/tis allilouxies pou dialekses")
+                        print ("Pick a number to delete it from the sequence or sequences you picked")
                         if choice ==1:
                                 choice1 = input()
                                 while choice1 <= 0 and choice1 > chromosome1 :
