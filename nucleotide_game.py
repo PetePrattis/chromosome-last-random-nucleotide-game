@@ -30,96 +30,96 @@ while player!=-1:
                         if choice ==1:
                                 choice1 = input()
                                 while choice1 <= 0 and choice1 > chromosome1 :
-                                        print ("arithmos mi arnitikos i 0 kai mikroteros i isos tou mikous tis allilouxias")
+                                        print ("Number can't be negative or smaller or equall to the length of the sequence")
                                         choice1 = int(input())
                                 chromosome1 = chromosome1 - choice1
                         elif choice ==2:
                                 choice1 = input()
                                 while choice1 <= 0 and choice1 > chromosome2 :
-                                        print ("arithmos mi arnitikos i 0 kai mikroteros i isos tou mikous tis allilouxias")
+                                        print ("Number can't be negative or smaller or equall to the length of the sequence")
                                         choice1 = int(input())
                                 chromosome2 = chromosome2 - choice1
                         elif choice ==3 and chromosome1 <= chromosome2:
                                 choice1 = int(input())
                                 while choice1 <= 0 and choice1 > chromosome1 :
-                                        print ("arithmos mi arnitikos i 0 kai mikroteros i isos tou mikous tis allilouxias")
+                                        print ("Number can't be negative or smaller or equall to the length of the sequence")
                                         choice1 = input()
                                 chromosome1 = chromosome1 - choice1
                                 chromosome2 = chromosome2 - choice1
                         elif choice ==3 and chromosome2 < chromosome1:
                                 choice1 = int(input())
                                 while choice1 <= 0 and choice1 > chromosome2 :
-                                        print ("arithmos mi arnitikos i 0 kai mikroteros i isos tou mikous tis allilouxias")
+                                        print ("Number can't be negative or smaller or equall to the length of the sequence")
                                         choice1 = int(input())
                                 chromosome1 = chromosome1 - choice1
                                 chromosome2 = chromosome2 - choice1
                                 
                 elif chromosome1 !=0 and chromosome2 == 0 :
-                        print ("dialekse arithmo gia na aferaiseis apo tin 1i allilouxia")
+                        print ("Pick a number to deduct from the first sequence")
                         choice = int(input())
                         while choice <=0 and choice > chromosome1:
-                                        print ("Lathos eisodos.Dialekse arithmo mi arnitiko i 0 kai mikrotero i iso tou mikous tis allilouxias")
+                                        print ("Wrong input! Number can't be negative or smaller or equall to the length of the sequence")
                                         choice = int(input())
                         chromosome1 = chromosome1 - choice
                         
                 elif chromosome1 ==0 and chromosome2 !=0:
-                        print ("dialekse arithmo gia na aferaiseis apo tin 2i allilouxia")
+                        print ("Pick a number to deduct from the second sequence")
                         choice = int(input())
                         while choice <=0 and choice > chromosome2:
-                                        print ("Lathos eisodos.Dialekse arithmo mi arnitiko i 0 kai mikrotero i iso tou mikous tis allilouxias")
+                                        print ("Wrong input! Number can't be negative or smaller or equall to the length of the sequence")
                                         choice = int(input())
                         chromosome2 = chromosome2 - choice
                                 
                 player = 1              
         elif player ==1 and  not(chromosome1 ==0 and chromosome2 == 0):
-                print ("Paizei o 2os paixtis \n") 
+                print ("Player 2's round \n") 
                 if chromosome1 != 0 and chromosome2 != 0:
-                        print ("thes na diagrapseis apo tin 1i, tin 2i i kai apo tis 2 allilouxies? apanta 1, 2 i 3")
+                        print ("Do you want to delete from 1st, 2nd or both sequences? Answer with 1, 2 or 3")
                         choice = input()
                         while choice != 1 and choice != 2 and choice != 3:
-                                        print ("Lathos eisodos.Dialekse metaksu tou 1, 2 i 3")
+                                        print ("Wrong input! Answer with 1, 2 or 3")
                                         choice = int(input())
-                        print ("dialekse arithmo gia na ton diagrapseis apo tin/tis allilouxies pou dialekses")
+                        print ("Pick a number to delete it from the sequence or sequences you picked")
                         if choice ==1:
                                 choice1 = input()
                                 while choice1 <= 0 and choice1 > chromosome1 :
-                                        print ("arithmos mi arnitikos i 0 kai mikroteros i isos tou mikous tis allilouxias")
+                                        print ("Number can't be negative or smaller or equall to the length of the sequence")
                                         choice1 = int(input())
                                 chromosome1 = chromosome1 - choice1
                         elif choice ==2:
                                 choice1 = input()
                                 while choice1 <= 0 and choice1 > chromosome2 :
-                                        print ("arithmos mi arnitikos i 0 kai mikroteros i isos tou mikous tis allilouxias")
+                                        print ("Number can't be negative or smaller or equall to the length of the sequence")
                                         choice1 = int(input())
                                 chromosome2 = chromosome2 - choice1
                         elif choice ==3 and chromosome1 <= chromosome2:
                                 choice1 = int(input())
                                 while choice1 <= 0 and choice1 > chromosome1 :
-                                        print ("arithmos mi arnitikos i 0 kai mikroteros i isos tou mikous tis allilouxias")
+                                        print ("Number can't be negative or smaller or equall to the length of the sequence")
                                         choice1 = input()
                                 chromosome1 = chromosome1 - choice1
                                 chromosome2 = chromosome2 - choice1
                         elif choice ==3 and chromosome2 < chromosome1:
                                 choice1 = int(input())
                                 while choice1 <= 0 and choice1 > chromosome2 :
-                                        print ("arithmos mi arnitikos i 0 kai mikroteros i isos tou mikous tis allilouxias")
+                                        print ("Number can't be negative or smaller or equall to the length of the sequence")
                                         choice1 = int(input())
                                 chromosome1 = chromosome1 - choice1
                                 chromosome2 = chromosome2 - choice1
                                 
                 elif chromosome1 !=0 and chromosome2 == 0 :
-                        print ("dialekse arithmo gia na aferaiseis apo tin 1i allilouxia")
+                        print ("Pick a number to deduct from the first sequence")
                         choice = int(input())
                         while choice <=0 and choice > chromosome1:
-                                        print ("Lathos eisodos.Dialekse arithmo mi arnitiko i 0 kai mikrotero i iso tou mikous tis allilouxias")
+                                        print ("Wrong input! Number can't be negative or smaller or equall to the length of the sequence")
                                         choice = int(input())
                         chromosome1 = chromosome1 - choice
                         
                 elif chromosome1 ==0 and chromosome2 !=0:
-                        print ("dialekse arithmo gia na aferaiseis apo tin 2i allilouxia")
+                        print ("Pick a number to deduct from the second sequence")
                         choice = int(input())
                         while choice <=0 and choice > chromosome2:
-                                        print ("Lathos eisodos.Dialekse arithmo mi arnitiko i 0 kai mikrotero i iso tou mikous tis allilouxias")
+                                        print ("Wrong input! Number can't be negative or smaller or equall to the length of the sequence")
                                         choice = int(input())
                         chromosome2 = chromosome2 - choice
                 
@@ -127,9 +127,9 @@ while player!=-1:
                         
         elif chromosome1 ==0 and chromosome2 == 0:
                 if player==0:
-                        print ("o paixtis 2 nikise") 
+                        print ("Player 2 won") 
                 elif player==1:
-                        print ("o paixtis 1 nikise")
+                        print ("Player 1 won")
                 player = -1
                         
                         
